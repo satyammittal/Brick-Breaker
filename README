@@ -1,0 +1,63 @@
+## Introduction
+2D game with keyboard and mouse controllers. This
+would be a 2D laser shooting game , where you fire laser
+beams from a canon on the left to targets that are ran-
+domly dropping from the top of screen. There should be
+some mirrors placed in the path where laser rays can be
+Laser Canon Mirror reflected.
+
+##Compilation
+1)make clean
+2)make
+3)./sample2D
+
+##How to play
+To start the game do ./sample2D
+after that welcome screen will be there. do Y to start the game.
+After that bricks with green,red or black start droping in random directions.
+Do R to pause.
+move either with mouse by selecting cannon and baskets.
+Try to shoot black bricks with cannon and earn points.
+Collect Similar color bricks in correspoding baskets.
+After each 500 score Stage with be increased.
+after 5 stages u will win the game.
+
+##Rules
+
+1)Basket with different colors:-10
+2)Baskets with same colors:50
+3)Baskets with black color:-20
+4)Laser with black:5
+5)Laser with red:-5
+6)Laser with green: -5
+Life Available:5
+Life reduced by 1 in above cases excep 2 and 4.
+4 mirrors available for reflection at 45,60,120,150 degre
+
+##Sound
+	Sound available:breakout.mp3 played during games
+
+##Controls
+There should be two sets of controls, one using the key-
+board, and one using the mouse. 6
+You should be able to tilt the canon upward and down-
+ward using the keys (a and d) and move it up and down
+using the keys (s and f). Use the keys (n and m) to in-
+crease or decrease the speed of bricks falling (within the
+permissible limits). Left and right movement of baskets
+can be controlled with Ctr+left and Ctr+right (for the red
+basket) and Alt+left and Alt+right (for the blue basket).
+The left/right arrow keys should be used to pan the scene
+and the up/down keys to zoom in and out respectively.
+One should be able to shoot with the space bar.
+One should also have mouse controls to achieve the
+above. You should also be able to select any movable
+object by clicking on or near it (highlight the selected ob-
+ject). Then you can move baskets left or right and canon
+up and down by dragging. Use the position where you
+click to decide the direction of the shot. Use the mouse
+scroll wheel to zoom in and out. Use the right mouse but-
+ton to pan left/right when you click and drag.
+
+
+
